@@ -21,8 +21,8 @@ class Page {
         
         // config
         $config = array(
-            "tpl_dir"       => $_SERVER['DOCUMENT_ROOT'] . $tpl_dir . "/src/",
-            "cache_dir"     => $_SERVER['DOCUMENT_ROOT'] . $tpl_dir . "/cache/",
+            "tpl_dir"       => $tpl_dir . "/src/",
+            "cache_dir"     => $tpl_dir . "/cache/",
             "debug"         => true, // set to false to improve the speed
         );
         
