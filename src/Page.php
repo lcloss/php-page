@@ -4,7 +4,7 @@ namespace LCloss\Page;
 
 use Rain\Tpl;
 
-define('VIEW_DIR', $_SERVER['DOCUMENT_ROOT'] . '..' . DIRECTORY_SEPARATOR . 'app' . DIRECTORY_SEPARATOR . 'views' . DIRECTORY_SEPARATOR . 'front');
+define('VIEW_DIR', $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'app' . DIRECTORY_SEPARATOR . 'views' . DIRECTORY_SEPARATOR . 'front');
 
 class Page {
     private $tpl;
