@@ -4,6 +4,8 @@ namespace LCloss\Page;
 
 use Rain\Tpl;
 
+define('VIEW_DIR', $_SERVER['DOCUMENT_ROOT'] . '/app/views/front');
+
 class Page {
     private $tpl;
     private $options = [];
@@ -13,8 +15,9 @@ class Page {
         'data'      => [],
     ];
     
-    public function __construct($opts = array(), $tpl_dir = "/../app/views/front")
+    public function __construct($opts = array(), $tpl_dir = VIEW_DIR)
     {
+        die($tpl_dir);
         
         $this->options = array_merge($this->defaults, $opts);
         

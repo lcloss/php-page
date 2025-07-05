@@ -1,35 +1,37 @@
 # php-page
 
-A simple Class to work with RainTpl (Template System)
+PHP Page é um pacote simples para uso de um *Template System*.<br> 
+Ele funciona com o sistema de template RainTpl.
 
-## Getting Started
+## Início rápido
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+As instruções abaixo permitem usar o pacote rapidamente no seu projeto PHP.
 
-### Prerequisites
+### Pré requisitos
 
-You will need a web server and PHP configured.
-This project is intended to be incorporated into another project, so the minimum prerequisite is the web server and PHP.
+Um sistema em PHP.
 
-### Installing
+### Instalação
 
-Installation with Git:
-
-```
-git clone https://github.com/lcloss/php-page.git
-```
-
-Instalação com o Composer:
+Instale usando o Composer (recomendado):
 
 ```
 composer require lcloss/php-page
 ```
 
-## Running the tests
+Em alternativa, clone o repositório para uma pasta do seu projeto:
 
-### Initial setup
+```
+git clone https://github.com/lcloss/php-page.git
+```
 
-The default folder for the templates is ../app/views/front. If you want to change the default folder, change the $ tpl_dir variable in the Page.php file.
+## Testando o pacote
+
+### Configuração inicial
+
+A pasta *default* para as views é a `app/views/front`. Poderá mudar isso na constante `VIEW_DIR`, da classe `Page.php`.<br>
+Tenha em atenção que são criadas 2 sub-pastas: `src` e `cache`.
+
 
 In the view folder of your system, create the header.html and footer.html file.
 For this example, also create the home.html file.

@@ -11,7 +11,7 @@
         "php": ">=7.0"
     },
 	"license" : "MIT",
-	"minimum-stability" : "dev",
+	"minimum-stability" : "stable",
 	"authors" : [{
 			"name" : "Luciano Closs",
 			"email" : "lcloss@gmail.com"
