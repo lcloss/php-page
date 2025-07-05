@@ -17,8 +17,6 @@ class Page {
     
     public function __construct($opts = array(), $tpl_dir = VIEW_DIR)
     {
-        die($tpl_dir);
-        
         $this->options = array_merge($this->defaults, $opts);
         
         // config
